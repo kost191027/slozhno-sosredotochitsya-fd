@@ -11,7 +11,8 @@
   color: var(--color-text);
 }
 
-.link:visited {
+.link {
+  text-decoration: none;
   text-shadow: 2px 2px 0 var(--color-accent);
 }
 
@@ -58,7 +59,7 @@
   height: 9px;
   background-color: var(--color-decoration);
   border-radius: 50%;
-  box-shadow: 0 0 6px 2px;
+  box-shadow: 0 0 4px 2px;
   margin-left: 10px;
   margin-bottom: 2px;
 }
@@ -122,6 +123,14 @@
 .header__theme-menu-button:focus-visible {
   outline: none;
   border-block-end: 1px solid var(--color-decoration);
+}
+
+.header__title {
+  text-shadow: 4px 4px 0 var(--color-accent);
+}
+
+.footer__title {
+  text-shadow: 2px 2px 0 var(--color-accent);
 }
 
 .title {
